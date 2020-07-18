@@ -23,7 +23,9 @@ public class Planet {
 		myAlbedo = albedo;
 		
 	}
-	
+	/*
+	@return the rate of solar energy (in W/ m^2) for a planet given its distance from the sun. 	
+	*/
 	public double getInsolation ()
 	{
 		double relativeSolarIntensity = 1 / (myDistance * myDistance); // fraction relative to Earth
